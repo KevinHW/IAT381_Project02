@@ -1,0 +1,80 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body, table, input, textarea, select, li, button {
+	font:1em Helvetica, Arial, sans-serif;
+	line-height:1.5em;
+	color:#333;
+}
+
+body {
+	font-size:13px;
+	background:#fff;
+	text-align:center;
+}
+
+#container {
+	margin: 0 auto;
+	width:920px;
+	text-align:left;
+	position:relative;
+}
+
+nav ul, nav li {
+	margin:0;
+	
+}
+
+nav li {
+	display:inline;
+	position:relative:
+	margin-right:1.5em;
+	list-style:none;
+	}
+	
+header hgroup {
+	margin-bottom:1.5em;
+}
+
+header hgroup h1 {
+	margin-bottom:.25em;
+}
+
+header hgroup h2 {
+	margin:0;
+	color:#999;
+	}
+	
+/* Defining layout classes */
+/* class name. cols used for  column containers */
+/* class name. col used for individual columns */
+
+.cols {
+	margin-bottom:1.5em;
+	overflow:hidden;
+}
+
+.col, .col2, .col3, .col4, .col5 {
+	float:left;
+	display:inline;
+	margin-left:2%;
+	background:#f1f1f1;
+}
+
+.col {
+	width:49%;
+}
+
+.cols3 .col {
+	width:32%;
+}
+
+.cols5 .col {
+	width:18.4%;
+}
+
+.cols .first {
+	margin-left:none;
+}
