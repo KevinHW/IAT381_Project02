@@ -14,3 +14,49 @@ position: relative;
 	left:50px;
 	top: 50px;
 }
+
+div.BodyText {
+	position: relative;
+	font:1em Helvetica, Arial, sans-serif;
+	
+}
+
+#container {
+	margin: 0 auto;
+	width:920px;
+	text-align:left;
+	position:relative;
+}
+
+.cols {
+	margin-bottom:1.5em;
+	/*overflow:hidden;*/
+}
+
+.col, .col2, .col3, .col4, .col5 {
+	float:left;
+	display:inline;
+	margin-left:2%;
+	background:#f1f1f1;
+}
+
+.col {
+	width:25%;
+}
+
+.cols3 .col {
+	width:25%;
+}
+
+.cols5 .col {
+	width:50%;
+}
+
+.cols .first {
+	margin-left:none;
+	position: relative;
+	left: 200px;
+	top: -92px;
+	padding: 150px;
+	padding: 10px;
+}
