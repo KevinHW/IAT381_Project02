@@ -33,6 +33,13 @@ div.Bonsai_tree_gallery {
 	height: auto;
 }
 
+div.shop_cart{
+	position:relative;
+	float:right;
+	right: 220px;
+	top: -70px;
+}
+
 #container {
 	margin: 0 auto;
 	width:920px;
