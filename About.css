@@ -15,6 +15,11 @@ position: relative;
 	top: 50px;
 }
 
+div.Couple_Photo{
+	position: relative;
+	left:200px;
+}
+
 div.BodyText {
 	position: relative;
 	font:1em Helvetica, Arial, sans-serif;
