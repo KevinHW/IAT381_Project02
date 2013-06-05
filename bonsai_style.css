@@ -31,12 +31,16 @@ div.Bonsai_tree_gallery {
 	float:left;
 	width: auto;
 	height: auto;
+	
 }
 
 div.tree_name {
 	text-align: center;
+	left:20px;
 	position: relative;
 	font:1em Helvetica, Arial, sans-serif;
+	width:120px;
+	
 }
 
 #container {
