@@ -15,6 +15,14 @@ position: relative;
 	top: 50px;
 }
 
+div.shop_cart{
+	position:relative;
+	float:right;
+	right: 220px;
+	top: -70px;
+}
+
+
 div.Couple_Photo{
 	position: relative;
 	left:200px;
