@@ -33,6 +33,10 @@ div.Bonsai_tree_gallery {
 	height: auto;
 }
 
+div.table{
+	font:1em Helvetica, Arial, sans-serif;
+}
+
 h1 {
 	position: relative;
 	left:45px;
