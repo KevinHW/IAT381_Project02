@@ -17,7 +17,7 @@ position: relative;
 
 div.Couple_Photo{
 	position: relative;
-	left:200px;
+	left:0px;
 }
 
 div.BodyText {
@@ -31,6 +31,20 @@ div.Bonsai_tree_gallery {
 	float:left;
 	width: auto;
 	height: auto;
+}
+
+div.product_photo {
+	position: relative;
+	float:left;
+	left:10px;
+}
+
+div.ProductText {
+	font:1em Helvetica, Arial, sans-serif;
+	position: relative;
+	float: left;
+	left: 180px;
+	top: -220px;
 }
 
 div.table{
@@ -71,15 +85,15 @@ div.shop_cart{
 }
 
 .col {
-	width:25%;
+	width:20%;
 }
 
 .cols3 .col {
-	width:25%;
+	width:20%;
 }
 
 .cols5 .col {
-	width:50%;
+	width:60%;
 }
 
 .cols .first {
