@@ -54,13 +54,14 @@ div.table{
 
 div.Continue_shop{
 	position:relative;
+	float: left;
 	top:14px;
 }
 
 div.add_item{
 	position:relative;
 	float:right;
-	top:-24px;
+	top:14px;
 }
 
 div.Checkout{
