@@ -19,14 +19,11 @@ div.shop_cart{
 	position:relative;
 	float:right;
 	right: 220px;
-	top: -70px;
+	top: -115px;
 }
 
 h1 {
-	position: relative;
-	left:45px;
-	top: 75px;
-	font:1.2em Helvetica, Arial, sans-serif;
+	font:1.5em Helvetica, Arial, sans-serif;
 }
 
 
@@ -94,6 +91,5 @@ div.tree_name {
 	position: relative;
 	left: 200px;
 	top: -92px;
-	padding: 150px;
-	padding: 10px;
+	padding: 20px;
 }
