@@ -1,19 +1,87 @@
 div.MenuButtonPos {
 	position: relative;
-	float:none;
-	margin:-5px;
+	float:center;
+	margin:-3px;
+}
+
+img.button {
+	width:80%;
+	height:80%;
+}
+
+#container {
+	margin: 0 auto;
+	width:480px;
+	text-align:left;
+	position:relative;
 }
 
 div.Logo {
-position: relative;
-	left:50px;
-	top: 50px;
-	height:50px;
+	position: relative;
+	float: center;
+	/*left: 30px;
+	top: 20px;*/
+}
+
+div.shop_cart{
+	position:relative;
+	float:right;
+	right: 60px;
+	top: -30px;
+}
+
+img.logo{
+	width:30%;
+	height:30%
+}
+
+div.Couple_Photo{
+	position: relative;
+	top:20px;
+	left:30px;
+}
+
+div.add_item{
+	position:relative;
+	float:right;
+	right: -10px;
+	top:-204px;
+}
+
+div.Continue_shop{
+	position:relative;
+	float: left;
+	left:160px;
+	top:-140px;
+}
+
+div.Continue_shop_checkout{
+	position:relative;
+	float: left;
+	top:14px;
+	left:-10px;
+}
+
+div.product_photo {
+	margin: 0;
+	position: relative;
+	float:left;
+	left:-1px;
+}
+
+
+div.ProductText {
+	font:1em Helvetica, Arial, sans-serif;
+	position: relative;
+	float: left;
+	left: 2px;
+	top: -50px;
 }
 
 .cols .first {
 	position: relative;
-	left: 50px;
-	top: 140px;
+	/*left: 50px;
+	top: 140px;*/
 	padding: 20px;
+	float:center;
 }

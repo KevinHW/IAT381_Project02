@@ -50,6 +50,13 @@ div.Continue_shop{
 	left:170px;
 }
 
+div.Continue_shop_checkout{
+	position:relative;
+	float: left;
+	top:14px;
+	left:-10px;
+}
+
 div.add_item{
 	position:relative;
 	float:right;
