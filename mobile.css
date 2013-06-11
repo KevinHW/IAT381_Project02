@@ -1,0 +1,19 @@
+div.MenuButtonPos {
+	position: relative;
+	float:none;
+	margin:-5px;
+}
+
+div.Logo {
+position: relative;
+	left:50px;
+	top: 50px;
+	height:50px;
+}
+
+.cols .first {
+	position: relative;
+	left: 50px;
+	top: 140px;
+	padding: 20px;
+}

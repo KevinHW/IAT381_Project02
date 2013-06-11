@@ -26,6 +26,12 @@ div.BodyText {
 	
 }
 
+div.AboutBodyText {
+	position: relative;
+	font:1em Helvetica, Arial, sans-serif;
+	
+}
+
 
 div.Bonsai_tree_gallery {
 	margin:5px;
@@ -35,6 +41,7 @@ div.Bonsai_tree_gallery {
 }
 
 div.product_photo {
+	margin: 0;
 	position: relative;
 	float:left;
 	left:10px;
@@ -45,7 +52,7 @@ div.ProductText {
 	position: relative;
 	float: left;
 	left: 180px;
-	top: -220px;
+	top: -260px;
 }
 
 div.table{
@@ -55,13 +62,14 @@ div.table{
 div.Continue_shop{
 	position:relative;
 	float: left;
-	top:14px;
+	top:-50px;
+	left:170px;
 }
 
 div.add_item{
 	position:relative;
 	float:right;
-	top:14px;
+	top:-50px;
 }
 
 div.Checkout{
@@ -78,8 +86,8 @@ h1 {
 div.shop_cart{
 	position:relative;
 	float:right;
-	right: 220px;
-	top: -115px;
+	right: 110px;
+	top: -100px;
 }
 
 #container {
