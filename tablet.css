@@ -1,3 +1,7 @@
+a, img {
+    border:none;
+}
+
 div.MenuButtonPos {
 	position: relative;
 	float:left;
