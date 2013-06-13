@@ -43,7 +43,7 @@ div.shop_cart{
 div.AboutBodyText {
 	position: relative;
 	width: 280px;
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 	
 }
 
@@ -68,7 +68,7 @@ div.add_item{
 }
 
 div.ProductText {
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 	position: relative;
 	float: left;
 	left: 180px;

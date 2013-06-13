@@ -26,14 +26,13 @@ div.Couple_Photo{
 
 div.BodyText {
 	position: relative;
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 	
 }
 
 div.AboutBodyText {
 	position: relative;
-	font:1em Helvetica, Arial, sans-serif;
-	
+	font: 1em 'Quicksand', sans-serif;
 }
 
 
@@ -52,7 +51,7 @@ div.product_photo {
 }
 
 div.ProductText {
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 	position: relative;
 	float: left;
 	left: 180px;
@@ -60,7 +59,7 @@ div.ProductText {
 }
 
 div.table{
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 }
 
 div.Continue_shop{
@@ -91,7 +90,7 @@ div.Checkout{
 
 h1 {
 	margin: 0;
-	font:1.5em Helvetica, Arial, sans-serif;
+	font: 1.5em 'Quicksand', sans-serif;
 }
 
 div.shop_cart{
@@ -137,4 +136,10 @@ div.shop_cart{
 	left: 200px;
 	top: -140px;
 	padding: 20px;
+}
+
+form#payment label {
+	float: left;
+	font-size: 1em;
+	width: 110px;
 }

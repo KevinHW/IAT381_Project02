@@ -18,13 +18,13 @@ position: relative;
 div.shop_cart{
 	position:relative;
 	float:right;
-	right: 220px;
-	top: -115px;
+	right: 110px;
+	top: -100px;
 }
 
 h1 {
 	margin:0;
-	font:1.5em Helvetica, Arial, sans-serif;
+	font: 1.5em 'Quicksand', sans-serif;
 }
 
 
@@ -35,12 +35,11 @@ div.Couple_Photo{
 
 div.BodyText {
 	position: relative;
-	font:1em Helvetica, Arial, sans-serif;
-	
+	font: 1em 'Quicksand', sans-serif;	
 }
 
 div.Bonsai_tree_gallery {
-	margin:5px;
+	margin:15px;
 	float:left;
 	width: auto;
 	height: auto;
@@ -51,7 +50,7 @@ div.tree_name {
 	text-align: center;
 	left:20px;
 	position: relative;
-	font:1em Helvetica, Arial, sans-serif;
+	font: 1em 'Quicksand', sans-serif;
 	width:120px;
 	
 }
@@ -76,15 +75,15 @@ div.tree_name {
 }
 
 .col {
-	width:25%;
+	width:20%;
 }
 
 .cols3 .col {
-	width:24%;
+	width:20%;
 }
 
 .cols5 .col {
-	width:54%;
+	width:60%;  /*25, 24, 54 */
 }
 
 .cols .first {

@@ -3,9 +3,10 @@
 <html>
 	<head>
 		<title>Checkout</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="stylesheet" media="(max-width:800px)" type="text/css" href="tablet.css"/> 
-		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="mobile.css"/> 
+		<link rel="stylesheet" type="text/css" href="style.css" /> <!-- stylesheet for desktop -->
+		<link rel="stylesheet" media="(max-width:800px)" type="text/css" href="tablet.css"/>  <!-- stylesheet for tablet devices -->
+		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="mobile.css"/> <!-- stylesheet for mobil devices -->
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'> <!-- Font from Google Fonts -->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	</head>
 	
@@ -54,15 +55,36 @@
 				<section class="first col">
 					<div class="BodyText">
 						<h1>Checkout Process</h1>
-						<p>
-							Credit Card no. :
-						</p>
-						<p>
-							Billing address :
-						</p>
-						<p>
-							Shipping address : 
-						</p>
+						<form id="payment">
+							<p>
+								<label for="name">Name:</label>
+								<input id="name" name="name" type="text" placeholder="First and last name" required autofocus />
+							</p>
+							<p>
+								<label for="carddetail">Card Type:</label> <br/>
+							<p>
+								<input id="visa" name="cardtype" type="radio" />
+								<label for="visa">VISA</label>
+								<br/>
+								<input id="amex" name="cardtype" type="radio" />
+								<label for="amex">Amex</label>
+								<br/>
+								<input id="mastercard" name="cardtype" type="radio" />
+								<label for="mastercard">Mastercard</label>
+							</p>
+							<p>
+								<label for="name">Card No.:</label>
+								<input id="name" name="name" type="text" placeholder="XXX-XXXX-XXXX" required autofocus />
+							</p>
+							<p>
+								<label for="address">Billing Address:</label>
+								<textarea id="address" name="address" rows=3 required></textarea>
+							</p>
+							<p>
+								<label for="address">Shipping Address:</label>
+								<textarea id="address" name="address" rows=3 required></textarea>
+							</p>
+						</div> <!-- ends form id -->
 						<div class="Checkout">
 							<a href="Confirm.html"><img src="images/Complete_Order.png" alt = "Complete Order" /></a>
 						</div> <!-- end of Checkout div -->
