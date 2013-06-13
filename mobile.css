@@ -47,21 +47,29 @@ div.Couple_Photo{
 div.add_item{
 	position:relative;
 	float:right;
-	right: -10px;
-	top:-204px;
+	right: -14px;
+	top:-250px;
 }
 
-div.Continue_shop{
+div.Continue_shop{ /*continue shopping button for individual product page*/
 	position:relative;
 	float: left;
-	left:160px;
+	left:155px;
 	top:-140px;
 }
 
-div.Continue_shop_checkout{
+div.Continue_shop2{ /*continue shopping button for shopping cart page*/
 	position:relative;
 	float: left;
-	top:14px;
+	left:-10px;
+	top:60px;
+}
+
+
+div.Continue_shop_checkout{ /*return to shopping cart button for checkout page*/
+	position:relative;
+	float: left;
+	top:-33px;
 	left:-10px;
 }
 
