@@ -26,6 +26,20 @@ div.Logo {
 	top: 20px;*/
 }
 
+div.infograph1{
+	position: relative;
+	float:left;
+	top:10px;
+	left:40px;
+}
+
+div.infograph2{
+	position: relative;
+	float: right;
+	top:10px;
+	right:20px;
+}
+
 div.shop_cart{
 	position:relative;
 	float:right;

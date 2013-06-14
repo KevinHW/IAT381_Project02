@@ -19,6 +19,18 @@ position: relative;
 	top: 50px;
 }
 
+div.infograph1{
+	position: relative;
+	float:left;
+	top:10px;
+}
+
+div.infograph2{
+	position: relative;
+	float: right;
+	top:10px;
+}
+
 div.Couple_Photo{
 	position: relative;
 	left:0px;
