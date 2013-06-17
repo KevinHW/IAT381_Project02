@@ -151,3 +151,9 @@ form#payment label {
 	font-size: 1em;
 	width: 110px;
 }
+
+form#email label {
+	float: left;
+	font-size: 1em;
+	width: 110px;
+}
