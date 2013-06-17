@@ -33,6 +33,11 @@ div.Bonsai_tree_gallery {
 	height: auto;
 }
 
+th, td {
+	padding-right: 20px;
+}
+
+
 div.product_photo {
 	position: relative;
 	float:left;
@@ -64,6 +69,7 @@ div.Checkout{
 }
 
 h1 {
+	margin: 0;
 	font: 1.5em 'Quicksand', sans-serif;
 }
 
@@ -87,7 +93,7 @@ div.shop_cart{
 	/*overflow:hidden;*/
 }
 
-.col, .col2, .col3, .col4, .col5 {
+.col, .col5 {
 	float:left;
 	display:inline;
 	margin-left:2%;
@@ -95,10 +101,6 @@ div.shop_cart{
 }
 
 .col {
-	width:20%;
-}
-
-.cols3 .col {
 	width:20%;
 }
 
