@@ -2,6 +2,10 @@ a, img {
     border:none;
 }
 
+body{
+	
+}
+
 div.MenuButton {
 	
 }
@@ -115,6 +119,7 @@ div.shop_cart{
 #container {
 	margin: 0 auto;
 	width:920px;
+	height:1000px;
 	text-align:left;
 	position:relative;
 }
