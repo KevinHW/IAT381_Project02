@@ -70,9 +70,10 @@ h1 {
 div.shop_cart{
 	position:relative;
 	float:right;
-	right: 220px;
-	top: -70px;
+	right: 110px;
+	top: -100px;
 }
+
 
 #container {
 	margin: 0 auto;
