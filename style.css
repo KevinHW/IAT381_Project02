@@ -3,7 +3,9 @@ a, img {
 }
 
 body{
-	
+	background-image:url('images/Background.jpg'); /*photo credit: https://farm4.staticflickr.com/3086/2734229524_829275c502_o.jpg */
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
 div.MenuButton {
@@ -38,6 +40,25 @@ div.infograph2{
 div.Couple_Photo{
 	position: relative;
 	left:0px;
+}
+
+div.gallery_photo{
+	margin: 0px;
+	position:relative;
+	left:8%;
+}
+
+div.gallery_photo_pos{
+	margin: 10px;
+	float:left;
+}
+
+div.uploader{
+	text-align: center;												
+	position: relative;
+	font: 1em 'Quicksand', sans-serif;
+	height: 15px;
+	width:200px;
 }
 
 div.BodyText {
@@ -120,6 +141,7 @@ div.shop_cart{
 	margin: 0 auto;
 	width:920px;
 	height:1000px;
+	background-color:white;
 	text-align:left;
 	position:relative;
 }
@@ -147,7 +169,7 @@ div.shop_cart{
 .cols .first {
 	position: relative;
 	left: 200px;
-	top: -135px;
+	top: -188px;
 	padding: 20px;
 }
 
