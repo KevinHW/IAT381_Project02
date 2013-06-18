@@ -2,6 +2,19 @@ a, img {
     border:none;
 }
 
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('Font/Quicksand_Light-webfont.eot');
+    src: url('Font/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/Quicksand_Light-webfont.woff') format('woff'),
+         url('Font/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('Font/Quicksand_Light-webfont.svg#QuicksandLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body{
 	background-image:none;
 	background-repeat:no-repeat;
@@ -24,46 +37,46 @@ img.button {
 	position:relative;
 }
 
-div.Logo {
+div.Logo {	/*positioning logo*/
 	position: relative;
 	float: left;
 	/*left: 30px;
 	top: 20px;*/
 }
 
-div.infograph1{
+div.infograph1{	/*positioning watering infograph on FAQ page*/
 	position: relative;
 	float:left;
 	top:10px;
 	left:40px;
 }
 
-div.infograph2{
+div.infograph2{		/*positioning trimming infograph on FAQ page*/
 	position: relative;
 	float: right;
 	top:20px;
 	right:20px;
 }
 
-div.shop_cart{
+div.shop_cart{		/*positioning shopping cart*/
 	position:relative;
 	float:right;
 	right: 30px;
 	top: 20px;
 }
 
-img.logo{
+img.logo{		/*resizing logo for mobile size*/
 	width:30%;
 	height:30%
 }
 
-div.Couple_Photo{
+div.Couple_Photo{	/*couple's photo on About page*/
 	position: relative;
 	top:20px;
 	left:30px;
 }
 
-div.add_item{
+div.add_item{	/*add item button*/
 	position:relative;
 	float:right;
 	right: -14px;
@@ -92,7 +105,7 @@ div.Continue_shop_checkout{ /*return to shopping cart button for checkout page*/
 	left:-10px;
 }
 
-div.product_photo {
+div.product_photo { /*photo for individual product page*/
 	margin: 0;
 	position: relative;
 	float:left;
@@ -100,7 +113,7 @@ div.product_photo {
 }
 
 
-div.ProductText {
+div.ProductText {		/*Text for individual product page*/
 	font: 1em 'Quicksand', sans-serif;
 	position: relative;
 	float: left;
