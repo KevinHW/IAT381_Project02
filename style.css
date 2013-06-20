@@ -105,6 +105,7 @@ div.ProductText {		/*positioning text in individual product page*/
 	float: left;
 	left: 180px;
 	top: -260px;
+	width: 350px;
 }
 
 div.table{			/*mock table showing someone's purchases*/

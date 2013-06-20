@@ -24,6 +24,7 @@ body{
 div.MenuButtonPos {		/*positioning menu buttons*/
 	position: relative;
 	float:left;
+	left: 10px;
 	margin:-5px;
 	top:50px;
 }
@@ -43,7 +44,7 @@ div.Couple_Photo{		/*Couple's photo on About page*/
 
 div.Logo {				/*Logo positioning*/
 	position: relative;
-	left:30px;
+	left: 0px;
 	top: 20px;
 }
 
@@ -55,7 +56,7 @@ height:30%
 div.shop_cart{			/*positioning Shopping Cart icon*/
 	position:relative;
 	float:right;
-	right: 230px;
+	right: 150px;
 	top: -50px;
 }
 
