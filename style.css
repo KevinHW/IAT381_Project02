@@ -20,6 +20,16 @@ body{
 	background-attachment:fixed;
 }
 
+a, a:visited { /* anchor links colour */
+	color:#22B573;
+	text-decoration: none;
+}
+
+a:hover { /* anchor links when hovered */
+	color: #22B573;
+	text-decoration: underline;
+}
+
 div.MenuButton {
 	
 }

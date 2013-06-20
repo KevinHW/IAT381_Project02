@@ -49,8 +49,7 @@ div.Logo {				/*Logo positioning*/
 }
 
 img.logo{				/*resizing logo for Tablet size*/
-width:30%;
-height:30%
+width:260px;
 }
 
 div.shop_cart{			/*positioning Shopping Cart icon*/

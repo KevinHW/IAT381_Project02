@@ -27,11 +27,6 @@ div.MenuButtonPos {
 	margin-top: -2px;
 }
 
-img.button {
-	width:100%;
-	height:100%;
-}
-
 #container {
 	margin: 0 auto;
 	width:480px;
@@ -67,8 +62,8 @@ div.shop_cart{		/*positioning shopping cart*/
 }
 
 img.logo{		/*resizing logo for mobile size*/
-	width:30%;
-	height:30%
+	width: 130px;
+	padding-right: 250px;
 }
 
 div.Couple_Photo{	/*couple's photo on About page*/
