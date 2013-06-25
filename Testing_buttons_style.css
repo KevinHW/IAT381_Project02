@@ -20,9 +20,6 @@ body{
 	background-attachment:fixed;
 }
 
-div.button_list{
-	width:50px;
-}
 
 nav ul {
 	margin-left:0;
@@ -30,23 +27,22 @@ nav ul {
 
 nav ul li {
 	position:relative;
-	top:6em;
-	margin:10px;
-	display: block;
+	top:4em;
+	display:block;
 	list-style: none;
-	margin-right:0.5em;
 	font-family:'Quicksand', sans-serif;
-	height:40px;
-
+	margin-left:0.5em;
+	height:50px;
 }
+
 
 a.menuButton {
 	text-align:center;
-	background-color:#559653;
+	/*background-color:#209653;
 	/*border-radius:.5em;*/
 	height:26px;
-	color:white;
-	/*border-color:black;*/
+	color:#209653;
+	border-color:black;*/
 	font-size:20px;
 	text-decoration:none;
 	padding:.5em .95em;
@@ -68,15 +64,19 @@ a.menuButton:hover {
     transition: background-color 2s, color 2s;
 }
 
-a, a:visited { /* anchor links colour */
+.menuButton:active{
+	color:#507A46;
+}
+
+/*a, a:visited { /* anchor links colour 
 	color:#22B573;
 	text-decoration: none;
 }
 
-a:hover { /* anchor links when hovered */
+a:hover { /* anchor links when hovered 
 	color: #22B573;
 	text-decoration: underline;
-}
+}*/
 
 div.MenuButton {
 	
@@ -240,7 +240,7 @@ div.shop_cart{	/*positioning shopping cart icon*/
 .cols .first {
 	position: relative;
 	left: 200px;
-	top: -155px;
+	top: -5em;
 	padding: 20px;
 }
 
