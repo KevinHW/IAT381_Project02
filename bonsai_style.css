@@ -12,24 +12,28 @@ body{
 	background-attachment:fixed;
 }
 
-div.buttons	{
-	position:relative;
-	top:4em;
-	left:1em;
-	font-family:'Quicksand', Arial, sans-serif;
-	color:white;
-	width:150px;
+nav ul {
+	margin-left:0;
 }
 
-a.menuButton {
+nav ul li {
+	position:relative;
+	top:4em;
 	display:block;
-	margin:10px;
+	list-style: none;
+	font-family:'Quicksand', sans-serif;
+	margin-left:0.5em;
+	height:50px;
+}
+
+
+a.menuButton {
 	text-align:center;
-	background-color:#21B573;
+	/*background-color:#209653;
 	/*border-radius:.5em;*/
 	height:26px;
-	color:white;
-	/*border-color:black;*/
+	color:#209653;
+	border-color:black;*/
 	font-size:20px;
 	text-decoration:none;
 	padding:.5em .95em;
@@ -49,10 +53,6 @@ a.menuButton:hover {
     -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
     -o-transition: background-color 2s, color 2s;
     transition: background-color 2s, color 2s;
-}
-
-.menuButton:active{
-	color:#507A46;
 }
 
 div.MenuButtonPos {
