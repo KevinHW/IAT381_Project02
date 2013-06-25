@@ -14,6 +14,18 @@ a, img {
 
 }
 
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('Quicksand_Bold-webfont.eot');
+    src: url('Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Quicksand_Bold-webfont.woff') format('woff'),
+         url('Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 div.MenuButton {
 	
@@ -34,7 +46,7 @@ nav ul li {
 	top:4em;
 	display:block;
 	list-style: none;
-	font-family:'Quicksand', sans-serif;
+	font-family:'QuicksandBold', sans-serif;
 	margin-left:0.5em;
 	height:50px;
 }
