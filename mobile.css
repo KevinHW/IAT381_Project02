@@ -4,12 +4,24 @@ a, img {
 
 a:link{
 	text-decoration:none;
-	color:black;
+	color:#488A36;
 }
+
 
 a:visited{
 	text-decoration:none;
-	color:blue;
+	color:#6BB557;
+}
+
+a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+div.upload_button {
+	position:relative;
+	left:65px;
+	top:65px;
 }
 
 @font-face {

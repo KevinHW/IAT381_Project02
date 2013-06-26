@@ -4,12 +4,17 @@ a, img {
 
 a:link{
 	text-decoration:none;
-	color:black;
+	color:#488A36;
 }
 
 a:visited{
 	text-decoration:none;
-	color:blue;
+	color:#6BB557;
+}
+
+a:hover{
+	text-decoration:none;
+	color:black;
 }
 
 @font-face {
