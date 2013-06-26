@@ -207,6 +207,13 @@ div.Continue_shop{	/*continue shopping button*/
 	left:170px;
 }
 
+div.Continue_shop3{	/*continue shopping button for confirmation page*/
+	position:relative;
+	float: left;
+	top:0px;
+	left:0px;
+}
+
 div.Continue_shop_checkout{	/*continue shopping button positioned specifically for Checkout page*/
 	position:relative;
 	float: left;

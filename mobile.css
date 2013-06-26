@@ -21,10 +21,43 @@ body{
 	background-attachment:fixed;
 }
 
-div.MenuButtonPos {
-	position: relative;
-	margin:2px;
-	margin-top: -2px;
+nav ul li {
+	display:inline-block;
+	margin: 0 auto;
+	
+}
+
+a.menuButton {
+	text-align: center;
+	margin:-2px;
+	background-color:#21B573;
+	/*border-radius:.5em;*/
+	height:26px;
+	color:white;
+	/*border-color:black;*/
+	font-size:18px;
+	text-decoration:none;
+	padding:.9em 2.5em;
+	/*border:solid 1px black;*/
+	/*box-shadow: 2px 2px 1px black;*/
+	-moz-transition:width 2s, height 2s, background-color 2s, -moz-transform 2s;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    -o-transition: background-color 2s, color 2s;
+    transition: background-color 2s, color 2s;
+}
+
+a.menuButton:hover {
+	text-decoration:none;
+	background-color:white;
+	color:black;
+	-moz-transition:width 2s, height 2s, background-color 2s, -moz-transform 2s;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    -o-transition: background-color 2s, color 2s;
+    transition: background-color 2s, color 2s;
+}
+
+a.menuButton:active{
+	color:#507A46;
 }
 
 #container {
@@ -37,7 +70,7 @@ div.MenuButtonPos {
 div.Logo {	/*positioning logo*/
 	position: relative;
 	float: left;
-	left: 10px;
+	left: 30px;
 }
 
 div.infograph1{	/*positioning watering infograph on FAQ page*/
@@ -91,6 +124,13 @@ div.Continue_shop2{ /*continue shopping button for shopping cart page*/
 	float: left;
 	left:-10px;
 	top:60px;
+}
+
+div.Continue_shop3{ /*continue shopping button for confirmation page*/
+	position:relative;
+	float: left;
+	left:-10px;
+	top:15px;
 }
 
 
