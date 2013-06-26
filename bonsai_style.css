@@ -2,6 +2,16 @@ a, img {
     border:none;
 }
 
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+a:visited{
+	text-decoration:none;
+	color:blue;
+}
+
 @font-face {
     font-family: 'QuicksandBold';
     src: url('Quicksand_Bold-webfont.eot');
