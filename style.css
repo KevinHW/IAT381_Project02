@@ -127,7 +127,7 @@ a:hover { /* anchor links when hovered
 div.upload_button {
 	position:relative;
 	left:220px;
-	top:215px;
+	top:-265px;
 }
 
 div.MenuButtonPos {		/*positioning menu buttons*/
