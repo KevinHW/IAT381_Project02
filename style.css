@@ -4,13 +4,13 @@ a, img {
 
 a:link{
 	text-decoration:none;
-	color:#488A36;
+	color:#156B00;
 }
 
 
 a:visited{
 	text-decoration:none;
-	color:#6BB557;
+	color:#0F4D00;
 }
 
 a:hover{
@@ -181,8 +181,7 @@ div.uploader{		/*text showing who uploaded which gallery photo*/
 
 div.BodyText {	/*body text in all pages*/
 	position: relative;
-	font: 1em 'Quicksand', sans-serif;
-	
+	font: 1em 'Quicksand', sans-serif;	
 }
 
 div.AboutBodyText {	/*body text in About page*/
